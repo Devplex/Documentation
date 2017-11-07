@@ -66,7 +66,7 @@ User Stories
 Use-Cases
 ---------
 
-![Use-Case System](/UseCase-Diagramme/KBP_UseCase_System.png "Use-Case System")
+![Use-Case System](UseCase-Diagramme/KBP_UseCase_System.png "Use-Case System")
 
 ----------
 
