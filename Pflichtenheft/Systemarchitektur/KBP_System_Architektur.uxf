@@ -4,8 +4,8 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>52</x>
-      <y>26</y>
+      <x>130</x>
+      <y>130</y>
       <w>1144</w>
       <h>585</h>
     </coordinates>
@@ -18,20 +18,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2002</x>
-      <y>481</y>
-      <w>156</w>
-      <h>52</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;extends&gt;&gt;</panel_attributes>
-    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>598</x>
-      <y>234</y>
+      <x>676</x>
+      <y>338</y>
       <w>351</w>
       <h>208</h>
     </coordinates>
@@ -42,8 +30,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>351</y>
+      <x>338</x>
+      <y>455</y>
       <w>234</w>
       <h>91</h>
     </coordinates>
@@ -54,8 +42,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>299</x>
-      <y>195</y>
+      <x>377</x>
+      <y>299</y>
       <w>221</w>
       <h>221</h>
     </coordinates>
@@ -66,8 +54,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>819</x>
-      <y>182</y>
+      <x>897</x>
+      <y>286</y>
       <w>143</w>
       <h>65</h>
     </coordinates>
@@ -80,8 +68,8 @@ fontsize=10
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>468</x>
-      <y>390</y>
+      <x>546</x>
+      <y>494</y>
       <w>143</w>
       <h>52</h>
     </coordinates>
@@ -92,8 +80,8 @@ Router</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>130</x>
-      <y>312</y>
+      <x>208</x>
+      <y>416</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -104,8 +92,8 @@ Google Home</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>78</x>
-      <y>156</y>
+      <x>156</x>
+      <y>260</y>
       <w>299</w>
       <h>52</h>
     </coordinates>
@@ -116,8 +104,8 @@ Amazon Echo Dot (Alexa)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>663</x>
-      <y>195</y>
+      <x>741</x>
+      <y>299</y>
       <w>169</w>
       <h>52</h>
     </coordinates>
@@ -128,8 +116,8 @@ PC Client</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>936</x>
-      <y>195</y>
+      <x>1014</x>
+      <y>299</y>
       <w>195</w>
       <h>52</h>
     </coordinates>

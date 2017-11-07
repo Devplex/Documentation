@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
   <zoom_level>10</zoom_level>
   <element>
     <id>UMLActor</id>
@@ -6,7 +7,7 @@
       <x>70</x>
       <y>190</y>
       <w>100</w>
-      <h>100</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>System User</panel_attributes>
     <additional_attributes/>
@@ -39,10 +40,10 @@
       <x>140</x>
       <y>100</y>
       <w>120</w>
-      <h>110</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;90.0;100.0;10.0</additional_attributes>
+    <additional_attributes>10.0;120.0;100.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -70,12 +71,12 @@
     <id>Relation</id>
     <coordinates>
       <x>140</x>
-      <y>230</y>
+      <y>210</y>
       <w>120</w>
-      <h>60</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;100.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -92,20 +93,20 @@
     <id>Relation</id>
     <coordinates>
       <x>140</x>
-      <y>250</y>
+      <y>210</y>
       <w>120</w>
-      <h>110</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;100.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;130.0</additional_attributes>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>40</x>
+      <x>50</x>
       <y>570</y>
-      <w>160</w>
-      <h>100</h>
+      <w>140</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Voice Assistant User</panel_attributes>
     <additional_attributes/>
@@ -127,10 +128,10 @@
       <x>140</x>
       <y>550</y>
       <w>120</w>
-      <h>60</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;40.0;100.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;100.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -147,18 +148,18 @@
     <id>Relation</id>
     <coordinates>
       <x>140</x>
-      <y>600</y>
+      <y>590</y>
       <w>120</w>
-      <h>50</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;100.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;40.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>430</x>
-      <y>160</y>
+      <x>460</x>
+      <y>240</y>
       <w>120</w>
       <h>60</h>
     </coordinates>
@@ -171,55 +172,55 @@ Assistant</panel_attributes>
     <coordinates>
       <x>350</x>
       <y>100</y>
-      <w>110</w>
-      <h>90</h>
+      <w>140</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;90.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>350</x>
-      <y>170</y>
-      <w>100</w>
+      <y>180</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>250</y>
+      <w>130</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>350</x>
-      <y>200</y>
-      <w>110</w>
-      <h>90</h>
+      <y>260</y>
+      <w>130</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;70.0;90.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>350</x>
-      <y>210</y>
-      <w>150</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;
-&lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;130.0;110.0;10.0</additional_attributes>
+    <additional_attributes>10.0;80.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>210</x>
       <y>50</y>
-      <w>390</w>
+      <w>380</w>
       <h>630</h>
     </coordinates>
     <panel_attributes>System
@@ -240,24 +241,24 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>130</x>
-      <y>280</y>
-      <w>130</w>
-      <h>150</h>
+      <x>140</x>
+      <y>210</y>
+      <w>120</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;110.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;100.0;200.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>350</x>
-      <y>210</y>
-      <w>160</w>
-      <h>220</h>
+      <y>260</y>
+      <w>140</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;200.0;120.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;110.0;10.0</additional_attributes>
   </element>
 </diagram>
