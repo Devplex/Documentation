@@ -105,3 +105,10 @@ Architekturdiagramm
 ![Systemarchitektur](Systemarchitektur/KBP_System_Architektur.png "Systemarchitektur")
 
 Das obige Diagramm stellt die Systemarchitektur dar. Auf der linken Seite des Diagramms sind vorerst nutzbare Voice Assistenten an ein lokales Netzwerk angebunden. Ziel ist es, dass beliebige Voice Assistenten an das finale System angebunden werden können. Über das Netzwerk wird eine Software auf einem PC-Client angesteuert. Diese Software soll sowohl bekannte Assistenten, als auch bekannte Programme speichern und verwalten können. Dazu bedient sie sich einer Datenbank.
+
+Datenbankmodel
+-------------------
+
+![Datenbankmodel](ERD_Diagramme/ERD_Datenbank.png "Datenbankmodel")
+
+Das obige Diagramm stellt die gespeicheten Daten in dem System dar. 
