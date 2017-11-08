@@ -62,15 +62,15 @@ User Stories
 ------------
 ### Desktopanwendung
 
-* Als Benutzer möchte ich eine Intuitive Oberfläche der Desktopanwendung, um keine Dokumentation lesen zu müssen.
+* Als Benutzer möchte ich eine intuitive Oberfläche der Desktopanwendung angezeigt bekommen, um keine Dokumentation lesen zu müssen.
 * Als Benutzer möchte ich ein optisches Feedback bekommen, um zu wissen ob die Desktopanwendung mit ihrer Arbeit noch nicht fertig ist.
-* Als Benutzer möchte ich vorkunfigurationen für Programme hinterlegt haben, um Zeit zu sparen und direkt loszulegen.
-* Als Benutzer möchte ich vorgefertige Konfigurations Templates für neue Programme nutzen, um Zeit bei der Konfiguration zu sparen.
-* Als Benutzer möchte ich Skripte ausführen können, um mächtige Operationen mit einem Wort auszuführen.
+* Als Benutzer möchte ich Vorkonfigurationen für Programme angeboten bekommen, um Zeit zu sparen.
+* Als Benutzer möchte ich vorgefertige Konfigurationen für neue Programme nutzen, um Zeit bei der Konfiguration zu sparen.
+* Als Benutzer möchte ich Skripte ausführen können, um individuelle Operationen mit einem Befehl auszuführen.
 
 ### Voice Assistent
 
-* Als Benutzer möchte ich meine lieblings Programme mit meiner Stimme steuern, um nicht aufzustehen.
+* Als Benutzer möchte ich meine Lieblingsprogramme mit meiner Stimme steuern, um meine Komfortabilität zu steigern.
 ----------
 
 Use-Cases
@@ -84,3 +84,5 @@ Architekturdiagramm
 -------------------
 
 ![Systemarchitektur](Systemarchitektur/KBP_System_Architektur.png "Systemarchitektur")
+
+Das obige Diagramm stellt die Systemarchitektur dar. Auf der linken Seite des Diagramms sind vorerst nutzbare Voice Assistents an ein lokales Netzwerk angebunden. Ziel ist es, dass beliebige Voice Assistens an das finale System angebunden werden können. Über das Netzwerk wird eine Software auf einem PC-Client angesteuert. Diese Software soll sowohl bekannte Assistenten, als auch bekannte Programme speichern und verwalten können. Dazu bedient sie sich einer Datenbank.
