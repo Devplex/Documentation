@@ -14,6 +14,7 @@
 * Alexander Jaksties
 * Tobias Muth
 * Jan-Hendrik Sünderkamp
+* Philipp Clausing
 
 ### Ergebnisse der Besprechung:
 
