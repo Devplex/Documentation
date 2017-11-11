@@ -4,10 +4,10 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>130</x>
-      <y>130</y>
+      <x>52</x>
+      <y>26</y>
       <w>1144</w>
-      <h>585</h>
+      <h>624</h>
     </coordinates>
     <panel_attributes>Systemarchitektur
 --
@@ -18,8 +18,20 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>676</x>
-      <y>338</y>
+      <x>2002</x>
+      <y>481</y>
+      <w>156</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>598</x>
+      <y>234</y>
       <w>351</w>
       <h>208</h>
     </coordinates>
@@ -30,8 +42,8 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>338</x>
-      <y>455</y>
+      <x>260</x>
+      <y>351</y>
       <w>234</w>
       <h>91</h>
     </coordinates>
@@ -42,34 +54,34 @@ layer=-1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>377</x>
-      <y>299</y>
-      <w>221</w>
+      <x>299</x>
+      <y>195</y>
+      <w>260</w>
       <h>221</h>
     </coordinates>
     <panel_attributes>Router_Alexa
 &lt;&lt;Wireless Lan&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;150.0;40.0;150.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;180.0;40.0;180.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>897</x>
-      <y>286</y>
-      <w>143</w>
-      <h>65</h>
+      <x>819</x>
+      <y>195</y>
+      <w>182</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.&gt;
+    <panel_attributes>lt=&lt;-&gt;
 fontsize=10
 /Client_Datenbank/
 </panel_attributes>
-    <additional_attributes>10.0;30.0;30.0;20.0;70.0;20.0;90.0;30.0</additional_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>546</x>
-      <y>494</y>
+      <x>468</x>
+      <y>390</y>
       <w>143</w>
       <h>52</h>
     </coordinates>
@@ -80,8 +92,8 @@ Router</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>208</x>
-      <y>416</y>
+      <x>130</x>
+      <y>312</y>
       <w>208</w>
       <h>52</h>
     </coordinates>
@@ -92,8 +104,8 @@ Google Home</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>156</x>
-      <y>260</y>
+      <x>78</x>
+      <y>156</y>
       <w>299</w>
       <h>52</h>
     </coordinates>
@@ -104,8 +116,8 @@ Amazon Echo Dot (Alexa)</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>741</x>
-      <y>299</y>
+      <x>663</x>
+      <y>195</y>
       <w>169</w>
       <h>52</h>
     </coordinates>
@@ -116,13 +128,38 @@ PC Client</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1014</x>
-      <y>299</y>
+      <x>975</x>
+      <y>195</y>
       <w>195</w>
       <h>52</h>
     </coordinates>
     <panel_attributes>symbol=component
-/Datenbank/</panel_attributes>
+Datenbank</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>442</x>
+      <y>520</y>
+      <w>195</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+
+(Alexa)-Webservice</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>429</y>
+      <w>195</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>Router_Webservice
+&lt;&lt;Ethernet&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
