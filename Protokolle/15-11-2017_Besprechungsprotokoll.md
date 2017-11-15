@@ -20,5 +20,6 @@ Info¹ | Beschreibung | Wer | Wann
 I | Nötige Technologien für die Voice Assistents besprochen | Alle | heute
 E | Travis als CI Tool wird genutzt | Alle | heute
 E | Kotlin wird als Programmiersprache für die Desktopanwendung verwendet | Alle | heute
+I | Mockups besprochen | Alle | heute
 
 ¹ I -> Info, E -> Entscheidung, K -> Konzeption, A -> Anweisung, (o) -> Optionales Feature
