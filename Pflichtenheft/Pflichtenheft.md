@@ -39,11 +39,11 @@ Softwareanforderungen
 ---------------------
 Fernsteuerung eines PC durch: Alexa, Google Home
 
-Im Rahmen des Projektes soll eine Desktopanwendung realisiert werden, die die Steuerung eines Desktop-Computers mithilfe eines Voice Assistenten ermöglicht. Dazu müssen für die jeweiligen Voice Assistenten eigene Anwendungen entwickelt werden. Im Folgenden soll auf die Anforderungen eingegangen werden.
+Im Rahmen des Projektes soll eine Desktopanwendung realisiert werden, die die Steuerung eines Computers mithilfe eines Voice Assistenten ermöglicht. Dazu müssen für die jeweiligen Voice Assistenten eigene Anwendungen entwickelt werden. Im Folgenden soll auf die Anforderungen eingegangen werden.
 
-**Desktopanwendung**
+**Endnutzeranwendung**
 
-Die wichtigeste Anforderung der Desktopanwendung ist die Konfigurierbarkeit der Anwendung selbst sowie verbundener Geräte. Dies soll über eine möglichst einfache und übersichtliche graphische Oberfläche realisiert werden. Bei Ladezeiten von über zwei Sekunden wird dem Nutzer ein optisches Feedback angezeigt. 
+Die wichtigeste Anforderung ist die Konfigurierbarkeit der Anwendung selbst sowie verbundener Geräte. Dies soll über eine möglichst einfache und übersichtliche graphische Oberfläche realisiert werden. Bei Ladezeiten von über zwei Sekunden wird dem Nutzer ein optisches Feedback angezeigt. 
 In der Oberfläche ist es dem Nutzer möglich neue Voice Assistenten, Programme, Befehle und Dateien hinzuzufügen. Beim Hinzufügen von Programmen sollen dem Nutzer mögliche Templates und bekannte Programme vorgeschlagen werden.
 Um volle Funktionalität gewährleisten zu können muss die Anwendung ausgeführt werden.
 
@@ -53,14 +53,15 @@ Die wichtigste Anforderung für die Voice Assistenten ist ein möglichst einheit
 
 **Optionale Anforderungen**
 
-Ein optionales Ziel ist das Ausführen von Kommandozeilenbefehlen und Skripten durch die Desktopanwendung.
+Ein optionales Ziel ist das Ausführen von Kommandozeilenbefehlen und Skripten durch eine Desktopanwendung.
 Weiterhin kann optional eine Weboberfläche zur Bedienung der Anwendung zur Verfügung gestellt werden.
-Der Voice Assistent könnte über ein externes System den Desktop-Computer starten.
+Der Voice Assistent könnte über ein externes System einen PC starten.
+Außerdem wäre die Steuerung mobiler Endgeräte eine mögliche Erweiterung (verschicken von WhatsApp-Nachrichten, SMS, Anrufe,...)
 
 Funktionale Anforderungen | Nichtfunktionale Anforderungen
 ------------------------- | -------------------------------
-**Desktopanwendung** | 
-Konﬁgurierbarkeit der Desktopanwendung | Selbsterklärende GUI der Desktopanwendung
+**PC-Anwendung** | 
+Konﬁgurierbarkeit der Anwendung | Selbsterklärende GUI der Anwendung
 Speichern von Pfadangaben, ausführbaren Dateiendungen und anderen Geräten |
 Optisches Feedback bei Ladezeiten von über zwei Sekunden |
 Standardbefehle für Programme |
@@ -79,10 +80,10 @@ Wake on LAN (o) |
 
 User Stories
 ------------
-### Desktopanwendung
+### PC-Anwendung
 
-* Als Benutzer möchte ich eine intuitive Oberfläche der Desktopanwendung angezeigt bekommen, um keine Dokumentation lesen zu müssen.
-* Als Benutzer möchte ich ein optisches Feedback bekommen, um zu wissen ob die Desktopanwendung mit ihrer Arbeit noch nicht fertig ist.
+* Als Benutzer möchte ich eine intuitive Oberfläche der Anwendung angezeigt bekommen, um keine Dokumentation lesen zu müssen.
+* Als Benutzer möchte ich ein optisches Feedback bekommen, um zu wissen ob die Anwendung mit ihrer Arbeit noch nicht fertig ist.
 * Als Benutzer möchte ich Vorkonfigurationen für Programme angeboten bekommen, um Zeit zu sparen.
 * Als Benutzer möchte ich vorgefertige Konfigurationen für neue Programme nutzen, um Zeit bei der Konfiguration zu sparen.
 * Als Benutzer möchte ich Skripte ausführen können, um individuelle Operationen mit einem Befehl auszuführen.
