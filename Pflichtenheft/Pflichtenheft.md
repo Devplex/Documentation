@@ -1,4 +1,4 @@
-
+﻿
 Bunny Box (Alexa/Google Home)
 ====================================
 Pflichtenheft
@@ -110,6 +110,6 @@ Das obige Diagramm stellt die Systemarchitektur dar. Auf der linken Seite des Di
 Datenbankmodel
 -------------------
 
-![Datenbankmodel](ERD_Diagramme/ERD_Datenbank.png "Datenbankmodel")
+![Datenbankmodel](ERD_Diagramme/Client_DB.png "Datenbankmodel")
 
 Das obige Diagramm stellt die gespeicheten Daten in dem System dar. Ein Befehl kann keiner/em bis n Kategorien/Programmem zugeordnet werden. Eine Kategorie/Programm hat ein bis n Befehle. Ein Programm ist genau einer Kategeorie zugeordnet und einer Kategorie sind keine bis n Programme zugeordnet.
