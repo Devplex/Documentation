@@ -117,6 +117,6 @@ Das obige Diagramm stellt die gespeicheten Daten in dem System dar. Ein Befehl k
 
 ### Webservice
 
-![Datenbankmodel](ERD_Diagramme/Web_DB.png "Datenbankmodel Web Service")
+![Datenbankmodel](ERD_Diagramme/WEB_DB.png "Datenbankmodel Web Service")
 
 Das obige Diagramm stellt die Verbindungsdaten zwischen den Client und den Voice Assistent dar.
