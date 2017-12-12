@@ -1,4 +1,4 @@
-
+﻿
 Bunny Box (Alexa/Google Home)
 ====================================
 Pflichtenheft
@@ -109,7 +109,14 @@ Das obige Diagramm stellt die Systemarchitektur dar. Auf der linken Seite des Di
 
 Datenbankmodel
 -------------------
+### Client
 
-![Datenbankmodel](ERD_Diagramme/ERD_Datenbank.png "Datenbankmodel")
+![Datenbankmodel](ERD_Diagramme/Client_DB.png "Datenbankmodel Client")
 
-Das obige Diagramm stellt die gespeicheten Daten in dem System dar. Ein Befehl kann keiner/em bis n Kategorien/Programmem zugeordnet werden. Eine Kategorie/Programm hat ein bis n Befehle. Ein Programm ist genau einer Kategeorie zugeordnet und einer Kategorie sind keine bis n Programme zugeordnet.
+Das obige Diagramm stellt die gespeicheten Daten in dem System dar. Ein Befehl kann keiner/em bis n Kategorien/Programmem zugeordnet werden. Eine Kategorie/Programm hat ein bis n Befehle. Ein Programm ist genau einer Kategeorie zugeordnet und einer Kategorie sind keine bis n Programme zugeordnet. Die n zu m Beziehungen werden mithilfe der Zwischentabellen Kategorie_Befehl und Programm_Befehl aufgelöst.
+
+### Webservice
+
+![Datenbankmodel](ERD_Diagramme/WEB_DB.png "Datenbankmodel Web Service")
+
+Das obige Diagramm stellt die Verbindungsdaten zwischen den Client und den Voice Assistent dar.
