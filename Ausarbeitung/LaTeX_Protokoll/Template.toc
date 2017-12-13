@@ -1,0 +1,6 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Was ist ein Voice Assistant?}{3}{section.1}
+\contentsline {section}{\numberline {2}Generelle Funktionsweise eines Voice Assistant}{3}{section.2}
+\contentsline {section}{\numberline {3}Webservice}{3}{section.3}
+\contentsline {section}{\numberline {4}Alexa}{3}{section.4}
+\contentsline {section}{\numberline {5}Google Home}{3}{section.5}
