@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {1.4}Sprachsynthese}{5}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Historie}{6}{subsection.1.5}
 \contentsline {section}{\numberline {2}Generelle Funktionsweise eines Voice Assistant}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}Voice Assistant}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Voice Assistant}{7}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Webservice}{8}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Logic-Code}{8}{subsection.2.3}
-\contentsline {section}{\numberline {3}Alexa}{8}{section.3}
-\contentsline {section}{\numberline {4}Google Home}{8}{section.4}
+\contentsline {section}{\numberline {3}Alexa}{9}{section.3}
+\contentsline {section}{\numberline {4}Google Home}{9}{section.4}
