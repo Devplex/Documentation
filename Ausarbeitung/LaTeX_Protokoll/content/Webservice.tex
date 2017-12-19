@@ -1,0 +1,42 @@
+\subsection{Was ist ein Webservice?}
+Ein Webservice erm\"{o}glicht eine Maschine-zu-Maschine Kommunikation mittels
+HTTP oder HTTPS \"{u}ber das Internet. Auf einem entfernten Computer werden Funktionen
+ausgef\"{u}hrt. Der Webservice wird mittels URI (Uniform Resource Identifier)
+eindeutig identifiziert. Die Kommunikation kann HTTP, XML oder JSON basiert sein.
+
+\subsection{Welchen Webservice nutzt Amazons Alexa?}
+Alexa arbeitet mit dem Amazon Web Service (AWS). AWS ist ein Tochterunternehmen von Amazon.
+AWS ist ein Cloud Computing Anbieter. Ein Nutzer von AWS bekommt einen virtuellen Server, welcher
+auf einem echten Server innerhalb einer Serverfarm l\"{a}uft.
+F\"{u}r diesen virutellen Server bietet AWS diverse Dienste an.
+Die f\"{u}r den Voice Assistant ben\"{o}tigten sind dabei folgende:
+\subsubsection{Lambda}
+Der AWS Dienst Lambda f\"{u}hrt beliebigen Code auf dem virtuellen Server aus.
+Meistens wird Lambda dazu verwendet eine Anfrage zu verarbeiten.
+In dieser Anfrage wird eine Lambda Funktion aufgerufen, ein von einem Programmierer
+entwickeltes Programm. Die Lambda Funktion generiert eine Antwort, meist im JSON-Format.
+Zurzeit unterst\"{u}tzte Programmiersprachen mit den entsprechenden
+Bibliotheken sind: Java, Node.js, Python und C\#.
+In zusammenarbeit mit einem Voice Assistenten wird dem AWS Dienst Lambda eine Anfrage im
+JSON-Format \"{u}bermittelt, in dieser steht die Lambda Funktion welche ausgef\"{u}hrt werden soll
+mit eventuellen Parametern. Der hinterlegte Programmcode (Logic Code) wird ausgef\"{u}hrt.
+Die Antwort im JSON-Format sendet AWS zur\"{u}ck an den Voice Assistant.
+Dieser wandelt die Antwort mittels TTS in Sprache um und Antwortet dem Nutzer auf seine Anfrage.
+\subsubsection{Alexa Voice Service (AVS)}
+AVS versteht nat\"{u}rliche Sprache und kann diese in Text umwandeln.
+Umgekehrt kann AVS Text wieder in Sprache umwandeln.
+Die aktuellste Version des AVS wird von Alexa auf das Voice Assistant Ger\"{a}t heruntergeladen.
+Der Voice Assistant wird dann lokal die Sprache in Text umwandeln und an den AWS senden.
+Da AVS ein Teil der Amazon Web Services ist wird die Spracherkennung mittels Machine Learning
+stettig verbessert, d.h. viele Ger\"{a}te senden erfolgreiche oder fehlgeschlagene Anfragen an AWS,
+um die Spracherkennung zu verbessern. Durch das Alexa Skill Kit kann ein Entwickler dem AVS
+zeigen welche Reaktion der Entwickler bei einem bestimmten Stichwort oder Satz erwartet.
+Dabei muss nahezu jede m\"{o}gliche Variation des Satzes bedacht sein, damit entsprechend
+darauf reagiert werden kann.
+
+\subsection{Welchen Webservice nutzt Google Assistant?}
+Die Google Home Ger\"{a}te integrieren den Google Assistant. Dieser kann mittels Dialogflow
+(fr\"{u}her APi.ai) erweitert werden, wie vorher bereits mit mobilen Ger\"{a}ten oder dem Google Chrome
+Browser m\"{o}glich. Dialogflow wird durch eine Node.js Node auf einem eigenen Server oder z.B.
+einem Server des Google Cloud Projects ausgef\"{u}hrt. Der Entwickler hat einen Agent (Anwednung)
+entwickelt, welcher auf die Anfrage des Nutzers reagiert.
